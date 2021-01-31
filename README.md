@@ -2,7 +2,13 @@
 
 <!-- This is a new setup of Axiom's search and categorization methods -->
 
+- [AXIOM (3)](#axiom--3-)
+  - [These pages will all consist of the following components:](#these-pages-will-all-consist-of-the-following-components-)
+  - [MVP](#mvp)
+  - [Markdown Syntax](#markdown-syntax)
+  - [HTML Syntax](#html-syntax)
 
+<!-- toc --> 
 Axiom is intended to be used as personal notes and reference of skills, progress and methods. Axiom: searchable, categorical, timestamped collection of json objects of the following types:
 
 1. 'References' - an documentation-themed collection, utilizing all components
@@ -18,27 +24,28 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 - Tags: an array of strings
 - Date: date of article creation
 - Grasp: fluency in the given subject
+- Table of Contents
 - Body: an array of elements, which can contain any number of:
     - Heading: subheadings slightly smaller than main
     - Text: standard blocks of text which contain:
         
-        - **Bold** | `<b>Bold</b>`
-        - *Italic* | `<i>italic</i>`
-        - ***Bold and italic*** `<b><i>both</i></b>`
-        - Link [Duck Duck Go](https://duckduckgo.com) | `<a href="">link name</a>`
-        - ``code... backticks can be `escaped` `` | `<pre><code>Code</code></pre>` | `<Highlight lang={lang} code={code} />`
-        - output ? just regular text in markdown? | styled like console output in app
-        - keyboard keys < kbd > K </ kbd >
-        - hr (---)
-        - br < br >
+        - Bold
+        - Italic
+        - Bold and italic
+        - Link
+        - code
+        - output
+        - keyboard keys
+        - hr
+        - br
 
-    - Code: syntax highlighted code snippets
-    - Codepens: embedded codepen examples
+    - Code blocks: syntax highlighted code snippets
+    - Sandbox: embedded codepen  /codesandbox examples
     - Blockquotes: styled blocks of text, can contain headings, lists, styled text
-    - Links:  a href/target
-    - Images:        ![Philadelphia's Magic Gardens. This place was so cool!](/img/garden.jpg "Magic Gardens")
-    - Linked image  [![An old rock](/assets/images/shiprock.jpg "Shiprock, New Mexico")](https://www.flickr.com/photos/be/31839864/in)
-    - Keyboard keys: <kbd>Ctrl</kbd> + <kbd>V</kbd>
+    - Links:  
+    - Images
+    - Linked image  
+    - Keyboard keys: 
     - Buttons: standalone external / internal links should look like button with -> facing right<br>
     scrolling buttons (href="#here") should look like button with downward arrow V
 
@@ -51,7 +58,7 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 ---
 
 
-### MVP
+## MVP
 
 1. Sorted list of references / definitions / examples
 2. Links to other internal references
@@ -63,13 +70,65 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 
 
+## Markdown syntax
+
+- Table of Contents: hyphen-bulleted list of #links [MVP](#mvp)
+- h1 - h6 # - ######
+- **Bold**
+- *Italic*
+- ***Bold and italic***
+- Link [Duck Duck Go](https://duckduckgo.com) 
+- ``code... backticks can be `escaped` ``
+- output ? just regular text in markdown?
+- Keyboard keys: <kbd>Ctrl</kbd> + <kbd>V</kbd>
+- hr < hr >
+- br < br >
+- Images:        ! [  string  ] (  /img/file.jpg   "Alt text / hover text" )
+- Linked image  [![An old rock](/assets/images/shiprock.jpg "Shiprock, New Mexico")](f.com/)
+
+
+## HTML syntax
+- Table of Contents: unordered list  `<ul><li><a href="#item-name">Item Name</a></li></ul>`
+- `<h1> - <h6>`
+- `<b>Bold</b>`
+- `<i>italic</i>`
+- `<b><i>both</i></b>`
+- `<a href="">link name</a>`
+- `<pre><code>Code</code></pre>` | `<Highlight lang={lang} code={code} />`
+- output ? styled like console output in app
+- keyboard keys < kbd > K </ kbd >
+- hr `<hr />`
+- br `<br />`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 and can be converted from json and downloaded as markdown, text, csv/excel??
- <!-- or render page as pdf???? -->
+ <!-- or render page as pdf? then download it, without rendering on client? -->
 
 
 extra parts used in axiom articles that do NOT exist in markdown:
 
 - codepen - just show the link in md
+- tags
+- progress bars
 - is that it???
   
 ---
@@ -106,3 +165,10 @@ eg: /php/loop, /js/loop
 - if no match in titles: return all with matching word in tags
     - if no match in tags: return all with matching word in subtitles
     - if no subtitles: return all with matching text from body (least specific)
+
+## how would we create a table of contents?
+
+- toc could be created from:
+  - an array
+  - any element in the body that has a certain tag, like headings, could be listed in the toc
+  - 
