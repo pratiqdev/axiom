@@ -102,6 +102,13 @@ How will we handle nested routing for complicated paths? eg:
 one json file per language?
 one json file for all concepts? 
 
+## Storage
+
+There are many different possible methods to store the data for this site:
+- json - easiest to search.. must be parsed / converted to html and markdown
+- markdown - not as easy to search.. easy to convert to html. download directly or view as md
+
+
 
 ## Markdown syntax
 
