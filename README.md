@@ -7,7 +7,6 @@
   - [MVP](#mvp)
   - [Markdown Syntax](#markdown-syntax)
   - [HTML Syntax](#html-syntax)
-
 <!-- toc --> 
 Axiom is intended to be used as personal notes and reference of skills, progress and methods. Axiom: searchable, categorical, timestamped collection of json objects of the following types:
 
@@ -68,6 +67,40 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 ---
 
+## Routing
+
+All sections of this project (languages) will be in seperate json files...  
+how to handle different items structures also??  
+will everything look like an article? or only articles have banners??  
+
+How will we handle nested routing for complicated paths? eg: 
+- search/
+- javascript/
+    - operators
+    - loops
+    - arrays
+- javascript/array
+    - method: map
+    - method: filter
+    - method: reduce
+- javascript/array/reduce
+<!-- next langs json file -->
+- html/
+- html/concepts
+    - semantics
+    - responsive design
+
+- html/elements/
+    - anchors
+    - paragraphs
+    - canvas
+
+- html/elements/anchor
+- html/elements/canvas
+- html/
+
+one json file per language?
+one json file for all concepts? 
 
 
 ## Markdown syntax
