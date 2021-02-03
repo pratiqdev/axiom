@@ -68,9 +68,7 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 2. Links to other internal references
 3. Categorized
 4. Searchable
-5. Curated sections  / 'instructional articles'
-
----
+5. Curated sections  / 'instructional article
 
 ## Researh
 
@@ -80,6 +78,7 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 
 - How to convert md to html, with showdown or custom parser
+- how to extend showdown for custom code blocks / codepens / codesandbox
 
 ## Routing
 
