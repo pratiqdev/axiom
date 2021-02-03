@@ -68,12 +68,13 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 ## Researh
 
-- Using MDX would require import statements in each md file!!!! consider replacing char strings with components
-    eg: ^Component/^ will be replaced with `<Component />`
+
 - Other sevices / sites / apps that programatically create sites from large collections of md files
 - Walking through md / mdx files
-- Generating components using mdx-js
-- How to convert md or mdx to html, with showdown (must be extended for codeblocks / sandboxes) or custom parser
+- Generating components using mdx-js -> unlikely solution (requires imports in each file)
+- How to convert md or mdx to html, with showdown (must be extended for codeblocks / sandboxes), ReactMarkdown or custom parser
+- consider replacing char strings with components
+    eg: ^Component/^ will be replaced with `<Component />`
 
 ## Routing
 
