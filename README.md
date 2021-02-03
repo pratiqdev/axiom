@@ -8,11 +8,11 @@
   - [Markdown Syntax](#markdown-syntax)
   - [HTML Syntax](#html-syntax)
 <!-- toc --> 
-Axiom is intended to be used as personal notes and reference of skills, progress and methods. Axiom: searchable, categorical, timestamped collection of json objects of the following types:
+Axiom is intended to be used as personal notes and reference of skills, progress and methods (basically a wiki). Axiom: searchable, categorical, timestamped collection of objects of the following types:
 
 1. 'References' - an documentation-themed collection, utilizing all components
 2. 'Concepts' - an article-themed 'simple' explanation of concepts, ideas, methodologies, etc.  
-3. 'Examples' - codepens, title and description
+3. 'Examples' - codepens/sandbox, title and description
 
 ---
 
@@ -59,13 +59,27 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 ## MVP
 
+1. Json structure to hold langs/refs/whatevers
+2. UI fro adding / editing elements in the md / json
+
+--- 
+
 1. Sorted list of references / definitions / examples
 2. Links to other internal references
 3. Categorized
 4. Searchable
-5. Curated sections / tours / 'instructional articles'
+5. Curated sections  / 'instructional articles'
 
 ---
+
+## Researh
+
+- Other sevices / sites / apps that programatically create sites from large collections of md files
+- Walking through md files
+
+
+
+- How to convert md to html, with showdown or custom parser
 
 ## Routing
 
@@ -107,6 +121,15 @@ one json file for all concepts?
 There are many different possible methods to store the data for this site:
 - json - easiest to search.. must be parsed / converted to html and markdown
 - markdown - not as easy to search.. easy to convert to html. download directly or view as md
+
+markdown pages seem to be the best option:
+- easy to read, format and proof
+- easy to browse by itself
+- can be shared without changes
+- easiest setup for article based app
+- can be changed from browser if needed
+- can be created without concern for site structure, will be indexed and sorted automatically
+
 
 
 
