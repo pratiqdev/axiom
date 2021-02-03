@@ -59,10 +59,6 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 ## MVP
 
-1. Json structure to hold langs/refs/whatevers
-2. UI fro adding / editing elements in the md / json
-
---- 
 
 1. Sorted list of references / definitions / examples
 2. Links to other internal references
@@ -72,19 +68,14 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 
 ## Researh
 
+- Using MDX would require import statements in each md file!!!! consider replacing char strings with components
+    eg: ^Component/^ will be replaced with `<Component />`
 - Other sevices / sites / apps that programatically create sites from large collections of md files
-- Walking through md files
-
-
-
-- How to convert md to html, with showdown or custom parser
-- how to extend showdown for custom code blocks / codepens / codesandbox
+- Walking through md / mdx files
+- Generating components using mdx-js
+- How to convert md or mdx to html, with showdown (must be extended for codeblocks / sandboxes) or custom parser
 
 ## Routing
-
-All sections of this project (languages) will be in seperate json files...  
-how to handle different items structures also??  
-will everything look like an article? or only articles have banners??  
 
 How will we handle nested routing for complicated paths? eg: 
 - search/
@@ -111,9 +102,6 @@ How will we handle nested routing for complicated paths? eg:
 - html/elements/anchor
 - html/elements/canvas
 - html/
-
-one json file per language?
-one json file for all concepts? 
 
 ## Storage
 
@@ -164,7 +152,7 @@ markdown pages seem to be the best option:
 
 
 
-
+## MDX syntax
 
 
 
