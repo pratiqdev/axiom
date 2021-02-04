@@ -57,11 +57,22 @@ One day the structure may look like this...
 
 <br>
 
-## Put **everything** in 'reference', 'overview', 'sources'
+## Put **everything** in 'reference', 'overview', 'sources', etc.
 
 Use variables within each .md file to categorize:
 - language
-- type - eg. 'reference', 'concept', 'sources'
+- type - eg. 
+  - 'article' - long form, uses all components
+  - 'definition' - short, usually text, code and maybe images
+  - 'shortcut' - short, usually keyboard shortcuts or short explanations - linked to full explanation article
+  - 'example' - title, description, explanation / walkthrough, (all components used)
+  - 'external' - links to, short articles about other sites, articles, pages, styles, methods, etc
+
+**Everything looks like an article??**
+
+Well yeah, besides definitions, or sources maybe.. everything will look like a long form article, unless its super simple..
+Examples will probably have shorter text bits and more codepens and pictures, maybe collapsible sections if they are different methods or types etc.
+Reference will have the full long-form text ramblings
 
 
 **PROS**

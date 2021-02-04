@@ -11,8 +11,8 @@
 Axiom is intended to be used as personal notes and reference of skills, progress and methods (basically a wiki). Axiom: searchable, categorical, timestamped collection of objects of the following types:
 
 1. 'References' - an documentation-themed collection, utilizing all components
-2. 'Concepts' - an article-themed 'simple' explanation of concepts, ideas, methodologies, etc.  
-3. 'Examples' - codepens/sandbox, title and description
+2. 'Concepts' - an article-themed long-form and 'simple' explanation of concepts, ideas, methodologies, etc.  
+3. 'Examples' - codepens/sandbox, explanations, walkthroughs, setups, title, description, etc.
 
 ---
 
