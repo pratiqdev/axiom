@@ -70,7 +70,7 @@ Use variables within each .md file to categorize:
 
 **Everything looks like an article??**
 
-Well yeah, besides definitions, or sources maybe.. everything will look like a long form article, unless its super simple..
+Well yeah, besides definitions (terminology), or sources maybe.. everything will look like a long form article, unless its super simple..
 Examples will probably have shorter text bits and more codepens and pictures, maybe collapsible sections if they are different methods or types etc.
 Reference will have the full long-form text ramblings
 

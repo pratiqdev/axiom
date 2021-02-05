@@ -76,6 +76,9 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 - consider replacing char strings with components
     eg: ^Component/^ will be replaced with `<Component />`
 
+    check out blot!
+    what is raw loader?
+
 ## Routing
 
 How will we handle nested routing for complicated paths? eg: 
@@ -105,10 +108,6 @@ How will we handle nested routing for complicated paths? eg:
 - html/
 
 ## Storage
-
-There are many different possible methods to store the data for this site:
-- json - easiest to search.. must be parsed / converted to html and markdown
-- markdown - not as easy to search.. easy to convert to html. download directly or view as md
 
 markdown pages seem to be the best option:
 - easy to read, format and proof
