@@ -1,60 +1,15 @@
-![pageres](https://placekitten.com/1000/500)
-
-# Article Title
-
-Author: [pratiqdev]  
+# How To Readme
+<!-- The title should always be the first line of the file -->
+<!-- Include the date of creation and modification -->
 Created: 2021/02/04 13:31:15  
-Last modified: 2021/02/04 13:34:51
+Last modified: 2021/02/05 00:08:38
 
 <hr>
 
-This is the brief description of this article and its contents.
+What should a good markdown file include?  
+These are not standard md files with installation / usage / etc...
 
-An article may consist of any arrangement of all components. 
-
-Dolore sunt et ea deserunt minim anim Lorem amet eu amet esse dolore nostrud dolor. Minim deserunt aliqua ullamco ipsum duis deserunt do esse dolore et ipsum consectetur velit. Sint fugiat nulla ex sit est anim ipsum enim tempor et.
-
-> Incididunt consectetur amet et culpa dolore tempor nostrud tempor veniam qui.
-> Cillum tempor esse consequat aliqua.
-
-Ex irure est consequat aliquip est culpa commodo mollit ex fugiat officia magna minim ut. Velit ipsum anim ipsum sit sit ullamco. Fugiat minim consectetur do deserunt est exercitation nostrud excepteur amet quis. Qui id aute sit fugiat ad.
-
-Sint eu ad fugiat aliquip est voluptate minim irure. Cupidatat nisi ea laboris magna est nulla. Anim excepteur exercitation esse dolore incididunt id labore ipsum veniam ad.
-
-```js
-// Now thats what I call Snippets 27
-let alivent = false
-let beDead = null
-
-const ye = (old, who) => who ? old++ : null
-
-const hmsdt = () => {
-    beDead = !alivent
-    return(
-        <h2>{beDead}</h2>
-    )
-}
-```
-
-Ex irure est consequat aliquip est culpa commodo mollit ex fugiat officia magna minim ut. Velit ipsum anim ipsum sit sit ullamco. Fugiat minim consectetur do deserunt est exercitation nostrud excepteur amet quis. Qui id aute sit fugiat ad.
-
-Sint eu ad fugiat aliquip est voluptate minim irure. Cupidatat nisi ea laboris magna est nulla. Anim excepteur exercitation esse dolore incididunt id labore ipsum veniam ad.
-
-
-```html
-<p>wowow-weewow</p>
-```
-
-```
-$ ERROR: The destination does not exist
-```
-
-<hr>
-
-
-
-
-
+They will be articles and terminology definitions
 
 
 <!-- Links ------------------------------->
