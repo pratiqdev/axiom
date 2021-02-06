@@ -223,3 +223,75 @@ eg: /php/loop, /js/loop
 - toc could be created from:
   - an array
   - any element in the body that has a certain tag, like headings, could be listed in the toc
+
+---
+
+## Things I need to study
+
+- Travis
+- yml
+- task runners like grunt
+- unit tests - jest, mocha
+- barely know ruby
+- progress badges
+- lifecycle methods
+- runkit + npm
+- apidoc
+- gitter
+- react context
+- instancing
+- recursion
+- amoritized
+- atomic operations
+- mutual exclusion
+- semaphores
+- auditing
+- signatures / security
+- data streaming methods
+- redux
+- immer
+- thunk
+- formik
+- prop types
+- noopener
+- tagged template literals
+- analytics
+- lodash
+- moment
+- docker
+- mutability
+- coersion
+- promises
+- async / await
+- intersection observer
+- node cron
+- synthetic events
+- heat mapping
+
+## Things I havent made a page for - yet
+- css keyframes
+- box shadow
+- border
+- images
+- colors
+- gradients
+- hashtables
+- mysql
+- nosql
+- mongo
+- express
+- array methods
+- gsap
+- indexing
+- destructuring
+- cli
+- open/closed
+
+## Try these tools!
+- jest
+- mocha
+- vecteezy
+- pixabay
+- fontface.ninja
+- canva
+- color.hunt
