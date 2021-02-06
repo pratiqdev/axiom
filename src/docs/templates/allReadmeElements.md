@@ -67,6 +67,7 @@ Or leave it empty and use the name instead: [Reddit].
 
 ![pratiq-dev](https://img.shields.io/badge/pratiq-dev-blue?style=for-the-badge&logo=github "Thats Me!")
 
+![pratiq-dev](https://img.shields.io/badge/Title_only!-yellow?style=for-the-badge&logo=git "Thats Me!") 
 
 ![pratiq-dev](https://img.shields.io/badge/color-brightgreen-brightgreen?style=flat-square "Thats Me!")  
 ![pratiq-dev](https://img.shields.io/badge/color-yellowgreen-yellowgreen?style=flat-square "Thats Me!")  
@@ -79,18 +80,12 @@ Or leave it empty and use the name instead: [Reddit].
 ![pratiq-dev](https://img.shields.io/badge/color-black-black?style=flat-square "Thats Me!")  
 ![pratiq-dev](https://img.shields.io/badge/color-grey-grey?style=flat-square "Thats Me!")  
 ![pratiq-dev](https://img.shields.io/badge/color-lightgrey-lightgrey?style=flat-square "Thats Me!")  
-![pratiq-dev](https://img.shields.io/badge/color-white-white?style=flat-square "Thats Me!")  
-
-![pratiq-dev](https://img.shields.io/badge/color-%23111-111?style=flat-square "Thats Me!")  
-![pratiq-dev](https://img.shields.io/badge/color-%23555-555?style=flat-square "Thats Me!")  
-![pratiq-dev](https://img.shields.io/badge/color-%23999-999?style=flat-square "Thats Me!")  
-![pratiq-dev](https://img.shields.io/badge/color-%23fff-fff?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-white-white?style=flat-square "Thats Me!")   
 ![pratiq-dev](https://img.shields.io/badge/color-%23220088-220088?style=flat-square "Thats Me!")  
 
 Errors:  
 
 ![ERROR](https://img.shields.io/badge/ "purposeful error")  
-![pratiq-dev](https://img.shields.io/badge/color-green--?style=flat-square "Thats Me!") - hyphen given as color?  
 ![pratiq-dev](https://img.shelds.io/bge/color-green----green?style=flat-square "Thats Me!") - misspelled or error shows alt-text 
 
 --------------------------------------------------------------------------
