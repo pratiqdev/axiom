@@ -267,6 +267,7 @@ eg: /php/loop, /js/loop
 - node cron
 - synthetic events
 - heat mapping
+- 8 digit hex - octodecimal?
 
 ## Things I havent made a page for - yet
 - css keyframes
