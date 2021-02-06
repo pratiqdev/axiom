@@ -1,9 +1,15 @@
+<!--
+! PENDING COMPLETION
+! more usage, testing required
+ -->
+
+
 # Resposive Web Design
 
-Created: 2021/02/04 20:03:22
+Created: 2021/02/04 20:03:22  
 Last modified: 2021/02/04 20:22:03
 
-\#Web Design
+***\#Web Design***
 
 Responsive design is the idea that web pages - and content displayed within them - 'respond' to the size and shape of the viewport it appears on. This design method ensures that content appears exactly how it was intended / designed.
 

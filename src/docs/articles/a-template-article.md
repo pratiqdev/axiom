@@ -1,13 +1,17 @@
-<!-- ARTICLE -->
-![pageres](https://placekitten.com/1000/500)
+<!--
+! PENDING COMPLETION
+! more usage, testing required
+ -->
+
 
 # Article Title
 
 Author: [pratiqdev]  
 Created: 2021/02/04 13:31:15  
 Last modified: 2021/02/04 13:34:51
+![pageres](https://placekitten.com/1000/500)
 
-<hr>
+***\#Thing \#otherThing***
 
 This is the brief description of this article and its contents.
 

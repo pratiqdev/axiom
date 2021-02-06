@@ -1,10 +1,14 @@
+<!--
+! PENDING COMPLETION
+! more usage, testing required
+ -->
+
 # Local version control with Git
 
-Created: 2021/02/04 13:34:51
+Created: 2021/02/04 13:34:51  
 Last modified: 2021/02/04 20:08:14
 
-\#git  
-\#offline  
+\#git \#offline  
 
 <!--
 ! Not well understood, please do more research on this topic 
