@@ -20,29 +20,81 @@ http://github.com - automatic!
 [GitHub](http://github.com) - formatted  
 [GitHub](http://github.com "GO TO GITHUB!") - formatted with TITLE  
 
+Or leave it empty and use the name instead: [Reddit].  
+
+<!-- the following link text and URL will be hidden: used as link list later -->
+[Reddit]: http://www.reddit.com 
+
 --------------------------------------------------------------------------
+
 ## LISTS
 
 1. Ordered Lists
 2. Automatic Numbering
 3. But at least try to use actual numbers in .md
 
-
 - Un-ordered Lists
 - Just as easy
-* use asterisk too 
-* notice different spacing
-  * nested lists
-    * just as easy
-      * limited to three bullet styles
-        * dot, circle, square, no hollow square?
+- DON'T USE ASTERISKS!***
 
 --------------------------------------------------------------------------
+
 ## IMAGES
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png "Yaktocat")
 
 --------------------------------------------------------------------------
+
+## BADGES
+
+\
+![pratiq-dev](https://img.shields.io/badge/default-badge-blue "Thats Me!")
+
+![pratiq-dev](https://img.shields.io/badge/pratiq-dev-blue?logo=javascript "Thats Me!")
+
+\
+![pratiq-dev](https://img.shields.io/badge/plastic-badge-blue?style=plastic "Thats Me!")
+
+![pratiq-dev](https://img.shields.io/badge/pratiq-dev-blue?style=plastic&logo=npm "Thats Me!")
+
+\
+![pratiq-dev](https://img.shields.io/badge/flat_square-badge-blue?style=flat-square "Thats Me!")
+
+![pratiq-dev](https://img.shields.io/badge/pratiq-dev-blue?style=flat-square&logo=git "Thats Me!")
+
+\
+![pratiq-dev](https://img.shields.io/badge/for_the-badge-blue?style=for-the-badge "Thats Me!")
+
+![pratiq-dev](https://img.shields.io/badge/pratiq-dev-blue?style=for-the-badge&logo=github "Thats Me!")
+
+
+![pratiq-dev](https://img.shields.io/badge/color-brightgreen-brightgreen?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-yellowgreen-yellowgreen?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-yellow-yellow?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-orange-orange?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-red-red?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-blue-blue?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-blueviolet-blueviolet?style=flat-square "Thats Me!")  
+
+![pratiq-dev](https://img.shields.io/badge/color-black-black?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-grey-grey?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-lightgrey-lightgrey?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-white-white?style=flat-square "Thats Me!")  
+
+![pratiq-dev](https://img.shields.io/badge/color-%23111-111?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-%23555-555?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-%23999-999?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-%23fff-fff?style=flat-square "Thats Me!")  
+![pratiq-dev](https://img.shields.io/badge/color-%23220088-220088?style=flat-square "Thats Me!")  
+
+Errors:  
+
+![ERROR](https://img.shields.io/badge/ "purposeful error")  
+![pratiq-dev](https://img.shields.io/badge/color-green--?style=flat-square "Thats Me!") - hyphen given as color?  
+![pratiq-dev](https://img.shelds.io/bge/color-green----green?style=flat-square "Thats Me!") - misspelled or error shows alt-text 
+
+--------------------------------------------------------------------------
+
 ## TASKS
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
@@ -51,6 +103,7 @@ http://github.com - automatic!
 - [ ] this is an incomplete item
 
 --------------------------------------------------------------------------
+
 ## TABLES
 
 First Header | Second Header
@@ -68,13 +121,9 @@ Content in the first column | Content in the second column
 | List item
 | List item
 
-
-<br><br>
-
 --------------------------------------------------------------------------
+
 ## MENTIONS
 
 Mention @users if you used some of their content!
 @someUser will be notified of this comment.
-
-

@@ -1,7 +1,7 @@
 # Git Commands
 
-Created: 2021/02/06 10:24:21
-Last modified: 2021/02/06 12:49:49
+Created: 2021/02/06 10:24:21  
+Last modified: 2021/02/06 16:45:59
 
 \#git  
 
@@ -13,7 +13,9 @@ Last modified: 2021/02/06 12:49:49
 
 <!-- ## ![pageres](https://placekitten.com/1000/500) -->
 
----
+
+> *git tracks content, not files  ...?*  
+> git-scm.com
 
 View all options with `git help` !
 
@@ -27,171 +29,121 @@ git [--version] [--help] [-C <path>] [-c <name>=<value>]
     <command> [<args>]
 ```
 
-> *git tracks content, not files*  
-> git-scm.com
-
 ## Common Git Commands
 
-### push
+`push`
 
 *'Update remote refs along with associated objects'*\
 Upload your changes to the selected repo.
 
----
+`pull`
 
-### pull
+**Download content from GitHub and integrate with your local files**\
+*Fetch from and integrate with another repository or a local branch*
 
-*'Fetch from and integrate with another repository or a local branch'*\
-Download content from GitHub and integrate with your local files
+`fetch`
 
----
+**Grab content from another repo**\
+*Download objects and refs from another repository*
 
-### fetch
-
-*'Download objects and refs from another repository'*\
-basic 
-
----
-
-### clone
+`clone`
 
 *'Clone a repository into a new directory'*\
 Download / copy a repo into a local directory
 
----
-
-### init
+`init`
 
 *'Create an empty Git repository or reinitialize an existing one'*\
 basic
 
----
-
-### add
+`add`
 
 *'Add files contents to the index'*\
 basic
 
----
-
-### mv
+`mv`
 
 *'Move or rename a file, a directory, or a symlink'*\
 basic
 
----
-
-### restore
+`restore`
 
 *'Restore the working tree files'*\
 basic
 
----
-
-### rm
+`rm`
 
 *'Remove files from the working tree and from the index'*\
 basic
 
----
-
-### sparse-checkout
+`sparse-checkout`
 
 *'Initialize and modify the sparse-checkout'*\
 basic
 
----
-
-### bisect
+`bisect`
 
 *'Use binary search to find the commit that introduced a bug'*\
 basic
 
----
-
-### diff
+`diff`
 
 *'Show changes between commits, commit and working tree, etc.'*\
 basic
 
----
-
-### grep
+`grep`
 
 *'Print lines matching a pattern'*\
 basic
 
----
-
-### log
+`log`
 
 *'Show commit logs'*\
 basic
 
----
-
-### show
-
+`show`
 *'Show various types of objects'*\
 basic
 
----
-
-### status
+`status`
 
 *'Show the working tree status'*\
 basic
 
----
-
-### branch
+`branch`
 
 *'List, create, or delete branches'*\
 basic
 
----
-
-### commit
+`commit`
 
 *'Record changes to the repository'*\
 basic
 
----
-
-### merge
+`merge`
 
 *'Join two or more development histories together'*\
 basic
 
----
-
-### rebase
+`rebase`
 
 *'Reapply commits on top of another base tip'*\
 basic
 
----
-
-### reset
+`reset`
 
 *'Reset current HEAD to the specific state'*\
 basic
 
----
-
-### switch
+`switch`
 
 *'Switch branches'*\
 basic
 
----
-
-### tag
+`tag`
 
 *'Create, list, delete or verify a tag object signed with GPG'*\
 basic
-
----
 
 ## Related Articles
 
