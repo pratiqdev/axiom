@@ -76,6 +76,7 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 - consider replacing char strings with components
     eg: ^Component/^ will be replaced with `<Component />`
 
+! https://github.com/mundimark/awesome-markdown
 ## Routing
 
 How will we handle nested routing for complicated paths? eg: 
