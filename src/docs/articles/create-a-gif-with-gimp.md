@@ -9,7 +9,7 @@ TODO add more steps and details
 # Create a GIF with GIMP
 
 Created: 2021/02/09 14:43:12  
-Last modified: 2021/02/09 16:53:46
+Last modified: 2021/02/09 16:57:32
 
 ***\#GIMP \#images \#animation***
 
@@ -55,6 +55,8 @@ Using video editing software, [Shotcut] in this case, you can easily edit and ex
 ---
 
 ## Related Articles
+
+sadsfdfsa
 
 [premiumbeat.com](https://www.premiumbeat.com/blog/alternatives-to-premiere-pro-free-paid/) - Free / paid alternatives to Adobe Premiere
 
