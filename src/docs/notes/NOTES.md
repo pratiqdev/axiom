@@ -226,6 +226,8 @@ eg: /php/loop, /js/loop
 
 ---
 
+
+
 ## Things I need to study
 
 - Travis
@@ -268,8 +270,10 @@ eg: /php/loop, /js/loop
 - synthetic events
 - heat mapping
 - 8 digit hex - octodecimal?
+- how to format git commits
 
 ## Things I havent made a page for - yet
+
 - css keyframes
 - box shadow
 - border
@@ -289,6 +293,7 @@ eg: /php/loop, /js/loop
 - open/closed
 
 ## Try these tools!
+
 - jest
 - mocha
 - vecteezy
