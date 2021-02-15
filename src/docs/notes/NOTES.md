@@ -1,13 +1,5 @@
 # AXIOM (3)
 
-<!-- This is a new setup of Axiom's search and categorization methods -->
-
-- [AXIOM (3)](#axiom--3-)
-  - [These pages will all consist of the following components:](#these-pages-will-all-consist-of-the-following-components-)
-  - [MVP](#mvp)
-  - [Markdown Syntax](#markdown-syntax)
-  - [HTML Syntax](#html-syntax)
-<!-- toc --> 
 Axiom is intended to be used as personal notes and reference of skills, progress and methods (basically a wiki). Axiom: searchable, categorical, timestamped collection of objects of the following types:
 
 1. 'References' - an documentation-themed collection, utilizing all components
@@ -17,7 +9,7 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 ---
 
 ## These pages will all consist of the following components:
-    
+
 - Title
 - Subtitle
 - Tags: an array of strings
@@ -25,18 +17,17 @@ Axiom is intended to be used as personal notes and reference of skills, progress
 - Grasp: fluency in the given subject
 - Table of Contents
 - Body: an array of elements, which can contain any number of:
-    - Heading: subheadings slightly smaller than main
+  - Heading: subheadings slightly smaller than main
     - Text: standard blocks of text which contain:
-        
-        - Bold
-        - Italic
-        - Bold and italic
-        - Link
-        - code
-        - output
-        - keyboard keys
-        - hr
-        - br
+      - Bold
+      - Italic
+      - Bold and italic
+      - Link
+      - code
+      - output
+      - keyboard keys
+      - hr
+      - br
 
     - Code blocks: syntax highlighted code snippets
     - Sandbox: embedded codepen  /codesandbox examples
@@ -44,9 +35,9 @@ Axiom is intended to be used as personal notes and reference of skills, progress
     - Links:  
     - Images
     - Linked image  
-    - Keyboard keys: 
-    - Buttons: standalone external / internal links should look like button with -> facing right<br>
-    scrolling buttons (href="#here") should look like button with downward arrow V
+    - Keyboard keys:
+    - Buttons: standalone external / internal links should look like button with -> facing right
+    - Scrolling buttons (href="#here") should look like button with downward arrow V
 
 - Footer: a footer section with extra links and suggestions:
 
@@ -105,21 +96,38 @@ How will we handle nested routing for complicated paths? eg:
 - html/elements/canvas
 - html/
 
-## Storage
-
-There are many different possible methods to store the data for this site:
-- json - easiest to search.. must be parsed / converted to html and markdown
-- markdown - not as easy to search.. easy to convert to html. download directly or view as md
-
-markdown pages seem to be the best option:
-- easy to read, format and proof
-- easy to browse by itself
-- can be shared without changes
-- easiest setup for article based app
-- can be changed from browser if needed
-- can be created without concern for site structure, will be indexed and sorted automatically
 
 
+## What / why / how?
+
+**How to determine which files require more research, writing, changes or are missing content?**  
+Files can be graded according to the following attributes:
+
+- Lint formatting with `markdown-lint`
+  - Whitespace
+  - Spacing
+  - Indentation
+  - Heading descension
+- Spellcheck
+- Total count of:
+  - Characters
+  - Internal Links
+  - External Links
+  - Headings
+  - Block quotes
+  - Code + codeblocks
+  - Images
+  - Comments
+- Does file contain comments? (all data should be renderable)
+- Does file contain TOC?
+- Does file contain footer content?
+  - Suggested next article
+  - Related articles
+  - References
+  - Sources
+  - Links used
+
+---
 
 
 ## Markdown syntax
@@ -151,30 +159,6 @@ markdown pages seem to be the best option:
 - keyboard keys < kbd > K </ kbd >
 - hr `<hr />`
 - br `<br />`
-
-
-
-## MDX syntax
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-and can be converted from json and downloaded as markdown, text, csv/excel??
- <!-- or render page as pdf? then download it, without rendering on client? -->
-
 
 extra parts used in axiom articles that do NOT exist in markdown:
 
