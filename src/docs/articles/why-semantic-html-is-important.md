@@ -1,1 +1,0 @@
-# Why semantic HTML is important
