@@ -1,37 +1,39 @@
 # Axiom
 
-This is a basic personal project for exploring and learning about authoring / content management systems / template engines / static site generators
+A customizable file explorer for documentation. Point to a repo and browse markdown as styled pages using built in themes
 
-Browse `src/docs/` or use [The App](localhost-for-now)
+## Main goals
 
-*Maybe now I will take more notes?*  
-View `axiom/notes/NOTES.md` for other stupid questions and half-answers
+- Select a theme with axiom.json if present
+- Set custom color schemes in axiom.json if present
+- Use light / dark themes by pointing to seperate css files in axiom.json if present
+- Control display and expansion of navigation panel with axiom.json if present
 
-## Main Goal
+```json
+{
+    // simple 
+    "main":"docs/",
+    "theme":"flat",
 
-An *organized* collection of notes - like a personal wiki
+    // custom colors
+    "light-colors":{
+        "primary":"#2C09A3",
+        "secondary":"#222"
+    },
+    "dark-colors":{
+        "primary":"#222",
+        "secondary":"#8800CC"
+    },
 
-> Much of the content from this repo / app will be copied from, referenced to, loosely interpreted from and/or simplified versions of official documentation - which should be used instead if available:
->
-> - [W3Schools](http://w3schools.com)
-> - [CSS Tricks](http://css-tricks.com)
-> - [MDN](https://developer.mozilla.org/en-US/docs/Web)
-> - [Stack Exchange](https://stackexchange.com)
-## Other Goals
+    // full custom themes
+    "light-theme":"my-light-theme.css",
+    "dark-theme":"my-dark-theme.css",
 
-An automatically categorized (based on directory structure), searchable collection of:
-
-- articles / guides
-- terminology / definitions
-- usage / samples / examples
-- codepens / sandboxes
-- sources
-
-for use as a publicly available reference for myself and other junior web devs / programmers.
-
----
-
-## Contribute
-
-I am a junior developer / programmer - any suggestions, guides or help would be greatly appreciated.
-I will be continually adding to this repo (my notes, you see) and will likely make mistakes at a consistent rate. If / when you find any errors, please create a **new issue** and I will *attempt* to fix it.
+    // control collapse / expansion of nav items
+    "nav-expand": 2 // automatically expand top two dir levels, leave sub dirs collapsed
+    // OR
+    // "nav-expand": 0 // collapse all dirs and sub dirs
+    // OR 
+    // omit rule to expand all dirs and sub dirs
+}
+```
