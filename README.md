@@ -1,6 +1,7 @@
 # Axiom
+*Inspired by doc browsers like MDWiki and DevBook*
 
-A customizable file explorer for documentation. Point to a repo and browse markdown as styled pages using built in themes
+An experimental web file explorer for documentation. Point to a repo, drive, box or CDN and browse markdown as styled pages using built in themes.  
 
 ## Main goals
 

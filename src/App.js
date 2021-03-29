@@ -22,7 +22,7 @@ function App() {
           <Route path="/" exact>
             <h2>Axiom</h2>
           </Route>
-           <Route path="/md-to-article" component={Articles}  />
+           <Route path="/md-to-article" component={MdArticles}  />
 
            {/* instead of using routes to manage articles, why not create an article component that will load the .md based on the current url / path??? */}
 
