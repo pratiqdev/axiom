@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { getSortedArticleData } from '../lib/sorted-articles'
+import { getSortedArticlesData } from '../lib/sorted-articles'
 
 export async function getStaticProps() {
   const allArticlesData = getSortedArticlesData()
@@ -23,15 +23,17 @@ export default function Home({allArticlesData}) {
 
           <section className=''>
           <ul className=''>
-            {allPostsData.map(({ id, date, title }) => (
-              <li className='' key={id}>
-                {title}
-                <br />
-                {id}
-                <br />
-                {date}
-              </li>
-            ))}
+            {allArticlesData.map(({ id, date, title, ready }) => {
+              if(ready){
+                return(
+                  <li className='' key={id}>
+                    {title}
+                    <br />
+                    {date}
+                  </li>
+                )
+              }
+})}
           </ul>
         </section>
         
