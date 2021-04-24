@@ -1,0 +1,3 @@
+[submodule "pages/resources"]
+	path = pages/resources
+	url = https://github.com/pratiqdev/axiom-data
